@@ -1,30 +1,28 @@
-# Thresholding
-## AIM:
-To segment the image using global thresholding, adaptive thresholding and Otsu's thresholding using python and OpenCV.
+# Implementation-of-Erosion-and-Dilation
 
-## SOFTWARE REQUIRED:
+## Aim
+To implement Erosion and Dilation using Python and OpenCV.
+
+## Software Required
 1. Anaconda - Python 3.7
 2. OpenCV
 
-## ALGORITHM:
+## Algorithm:
+### Step1:
+Import the necessary packages.
 
-### Step 1:
-Load the necessary packages.
+### Step2:
+Create the Text using cv2.putText.
 
-### Step 2:
-Read the Image and convert to grayscale.
+### Step3:
+Create the structuring element.
 
-### Step 3:
-Use Global thresholding to segment the image.
+### Step4:
+Erode the image using cv2.erode().
 
-### Step 4:
-Use Adaptive thresholding to segment the image.
+### Step5:
+Dilate the image using cv2.dilate().
 
-### Step 5:
-Use Otsu's method to segment the image.
-
-### Step 6:
-Display the results.
 
 ## PROGRAM:
 ```python
