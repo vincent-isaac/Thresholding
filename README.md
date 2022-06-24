@@ -1,5 +1,6 @@
-# Implementation-of-Erosion-and-Dilation
-
+### EX NO : 09
+### DATE  : 26.05.2022
+# <p align="center">Thresholding</p>
 ## Aim
 To implement Erosion and Dilation using Python and OpenCV.
 
@@ -23,9 +24,18 @@ Erode the image using cv2.erode().
 ### Step5:
 Dilate the image using cv2.dilate().
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## PROGRAM:
 ```python
+# Developed By:J Vincent isaac jeyaraj
+# Register Number: 212220230060 
+
 # Load the necessary packages
 import cv2
 import numpy as np
@@ -72,17 +82,56 @@ for i in range(0,9):
     plt.axis("off")
     plt.show()
 ```
+<br>
+
 ## OUTPUT:
 
 ### Original Image and Grayscale Image
 ![Capture22](https://user-images.githubusercontent.com/75234588/169644500-8d48e1f6-733b-4236-83a3-cb42f86d3fda.PNG)
 
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ### Global Thresholding
 ![Capture23](https://user-images.githubusercontent.com/75234588/169644502-041ad05b-928f-4bcb-9c11-4215a3cde30b.PNG)
 
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ### Adaptive Thresholding
 ![Capture24](https://user-images.githubusercontent.com/75234588/169644506-1d6dbfe9-cd15-4506-ac43-a2e779771a6e.PNG)
